@@ -8,8 +8,6 @@ Reusable • Adaptable • Community-driven
 
 </div>
 
----
-
 ## 🌿 Philosophy
 
 Nephrite is inspired by the **nephrite jade gemstone**, a stone historically associated with balance, durability, and calm.
@@ -18,8 +16,6 @@ This project aims to translate those qualities into a shared color theme that ca
 
 Nephrite is not a UI framework or a component library.  
 It is a **color foundation** — a common visual language maintained by the community.
-
----
 
 ## 🎨 About Nephrite
 
