@@ -1,29 +1,99 @@
 <div align="center">
 
-# Nephrite
+<img src="https://raw.githubusercontent.com/Nephrite-theme/web/main/public/og-image.png" alt="Nephrite: the emerald standard for your browser" width="100%">
 
-### A calm, jade-inspired community color theme
+### A calm, jade-inspired color theme for the apps you use every day
 
-Reusable • Adaptable • Community-driven
+[Website](https://getnephrite.dev) · [Palette](https://getnephrite.dev/palette) · [All ports](https://getnephrite.dev/ports) · [Request a port](https://github.com/Nephrite-theme/web/issues/new?title=Port%20request%3A%20)
 
 </div>
 
-## 🌿 Philosophy
+## Philosophy
 
-Nephrite is inspired by the **nephrite jade gemstone**, a stone historically associated with balance, durability, and calm.
+Nephrite is inspired by the **nephrite jade gemstone**, a stone historically associated with balance, durability and calm.
 
-This project aims to translate those qualities into a shared color theme that can be reused across different applications, tools, and platforms.
+This project translates those qualities into a shared color theme that can be reused across applications, tools and platforms. Nephrite is not a UI framework or a component library. It is a **color foundation**: a common visual language maintained by the community.
 
-Nephrite is not a UI framework or a component library.  
-It is a **color foundation** — a common visual language maintained by the community.
-
-## 🎨 About Nephrite
-
-Nephrite is a community-driven color theme designed to be:
+It is designed to be:
 
 - Calm and easy on the eyes
 - Consistent across applications
 - Flexible and framework-agnostic
 - Easy to adapt and extend
 
-The palette focuses on jade, emerald, mint, and deep forest tones, prioritizing balance over contrast and longevity over trends.
+The palette focuses on jade, emerald, mint and deep forest tones, prioritizing balance over glare and longevity over trends.
+
+## The palette
+
+Three flavors, ten jade-tinted neutrals and nine accents named after minerals. Every accent clears 4.5:1 contrast on its base.
+
+| Forest | Jade | Mint |
+| --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/Nephrite-theme/palette/main/assets/forest.svg" alt="Forest swatches" width="260"> | <img src="https://raw.githubusercontent.com/Nephrite-theme/palette/main/assets/jade.svg" alt="Jade swatches" width="260"> | <img src="https://raw.githubusercontent.com/Nephrite-theme/palette/main/assets/mint.svg" alt="Mint swatches" width="260"> |
+| Deep and dark, for late nights | Dark with more green, for long days | Light and airy, for daylight |
+
+Grab it as CSS, SCSS, JSON or JS from [**Nephrite-theme/palette**](https://github.com/Nephrite-theme/palette).
+
+## Ports
+
+| App | Status | |
+| --- | --- | --- |
+| Chrome | Available | [Install](https://getnephrite.dev/ports?category=browser) · [Source](https://github.com/Nephrite-theme/chrome) |
+| Firefox | In progress | [Source](https://github.com/Nephrite-theme/firefox) |
+| VS Code | In progress | |
+| Spotify | Planned | |
+| Terminal | Planned | Windows Terminal, iTerm2, Hyper |
+
+Want Nephrite somewhere else? [Request a port](https://github.com/Nephrite-theme/web/issues/new?title=Port%20request%3A%20) or build one with the [porting guide](https://github.com/Nephrite-theme/palette#building-a-port).
+
+<details>
+<summary><strong>Español</strong></summary>
+
+<br>
+
+### Un tema de color sereno, inspirado en el jade, para las apps que usas a diario
+
+[Sitio](https://getnephrite.dev/es/) · [Paleta](https://getnephrite.dev/es/palette) · [Todas las apps](https://getnephrite.dev/es/ports) · [Pedir una app](https://github.com/Nephrite-theme/web/issues/new?title=Port%20request%3A%20)
+
+#### Filosofía
+
+Nephrite se inspira en la **nefrita**, un tipo de jade asociado históricamente con el equilibrio, la resistencia y la calma.
+
+El proyecto traduce esas cualidades en un tema de color compartido que se puede usar en distintas aplicaciones, herramientas y plataformas. Nephrite no es un framework de interfaz ni una librería de componentes. Es una **base de color**: un lenguaje visual común mantenido por la comunidad.
+
+Está pensado para ser:
+
+- Sereno y descansado para la vista
+- Consistente entre aplicaciones
+- Flexible e independiente de cualquier framework
+- Fácil de adaptar y extender
+
+La paleta se centra en tonos jade, esmeralda, menta y bosque profundo, y prioriza el equilibrio sobre el deslumbramiento y la permanencia sobre las modas.
+
+#### La paleta
+
+Tres sabores, diez neutros con tinte jade y nueve acentos con nombres de minerales. Cada acento supera 4.5:1 de contraste sobre su fondo: **Forest** (oscuro y profundo, para la noche), **Jade** (oscuro con más verde, para jornadas largas) y **Mint** (claro y ligero, para el día).
+
+Descárgala en CSS, SCSS, JSON o JS desde [**Nephrite-theme/palette**](https://github.com/Nephrite-theme/palette).
+
+#### Apps
+
+| App | Estado | |
+| --- | --- | --- |
+| Chrome | Disponible | [Instalar](https://getnephrite.dev/es/ports?category=browser) · [Código](https://github.com/Nephrite-theme/chrome) |
+| Firefox | En progreso | [Código](https://github.com/Nephrite-theme/firefox) |
+| VS Code | En progreso | |
+| Spotify | Planeado | |
+| Terminal | Planeado | Windows Terminal, iTerm2, Hyper |
+
+¿Quieres Nephrite en otra app? [Pídela](https://github.com/Nephrite-theme/web/issues/new?title=Port%20request%3A%20) o créala con la [guía para ports](https://github.com/Nephrite-theme/palette/blob/main/README.es.md#crear-un-port).
+
+</details>
+
+---
+
+<div align="center">
+
+<sub>MIT licensed · <a href="https://x.com/NephriteTheme">@NephriteTheme</a></sub>
+
+</div>
