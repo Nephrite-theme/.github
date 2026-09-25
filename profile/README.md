@@ -4,7 +4,7 @@
 
 ### A calm, jade-inspired color theme for the apps you use every day
 
-[Website](https://getnephrite.dev) · [Palette](https://getnephrite.dev/palette) · [All ports](https://getnephrite.dev/ports) · [Request a port](https://github.com/Nephrite-theme/web/issues/new?title=Port%20request%3A%20)
+[Website](https://getnephrite.dev) · [Palette](https://getnephrite.dev/palette) · [All ports](https://getnephrite.dev/ports) · [Request a port](https://github.com/Nephrite-theme/web/issues/new?template=port-request.yml)
 
 </div>
 
@@ -44,7 +44,7 @@ Grab it as CSS, SCSS, JSON or JS from [**Nephrite-theme/palette**](https://githu
 | Spotify | Planned | |
 | Terminal | Planned | Windows Terminal, iTerm2, Hyper |
 
-Want Nephrite somewhere else? [Request a port](https://github.com/Nephrite-theme/web/issues/new?title=Port%20request%3A%20) or build one with the [porting guide](https://github.com/Nephrite-theme/palette#building-a-port).
+Want Nephrite somewhere else? [Request a port](https://github.com/Nephrite-theme/web/issues/new?template=port-request.yml), or build one: the [contributing guide](https://github.com/Nephrite-theme/.github/blob/main/CONTRIBUTING.md) walks you through it.
 
 <details>
 <summary><strong>Español</strong></summary>
@@ -53,7 +53,7 @@ Want Nephrite somewhere else? [Request a port](https://github.com/Nephrite-theme
 
 ### Un tema de color sereno, inspirado en el jade, para las apps que usas a diario
 
-[Sitio](https://getnephrite.dev/es/) · [Paleta](https://getnephrite.dev/es/palette) · [Todas las apps](https://getnephrite.dev/es/ports) · [Pedir una app](https://github.com/Nephrite-theme/web/issues/new?title=Port%20request%3A%20)
+[Sitio](https://getnephrite.dev/es/) · [Paleta](https://getnephrite.dev/es/palette) · [Todas las apps](https://getnephrite.dev/es/ports) · [Pedir una app](https://github.com/Nephrite-theme/web/issues/new?template=port-request.yml)
 
 #### Filosofía
 
@@ -86,7 +86,7 @@ Descárgala en CSS, SCSS, JSON o JS desde [**Nephrite-theme/palette**](https://g
 | Spotify | Planeado | |
 | Terminal | Planeado | Windows Terminal, iTerm2, Hyper |
 
-¿Quieres Nephrite en otra app? [Pídela](https://github.com/Nephrite-theme/web/issues/new?title=Port%20request%3A%20) o créala con la [guía para ports](https://github.com/Nephrite-theme/palette/blob/main/README.es.md#crear-un-port).
+¿Quieres Nephrite en otra app? [Pídela](https://github.com/Nephrite-theme/web/issues/new?template=port-request.yml), o créala: la [guía para contribuir](https://github.com/Nephrite-theme/.github/blob/main/CONTRIBUTING.es.md) te lleva paso a paso.
 
 </details>
 
