@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Browse ports / Ver las apps
+    url: https://getnephrite.dev/ports
+    about: See every app with a Nephrite theme and the ones on the way. / Mira todas las apps con tema Nephrite y las que vienen en camino.
+  - name: Palette and porting guide / Paleta y guía para ports
+    url: https://github.com/Nephrite-theme/palette#building-a-port
+    about: Colors, formats and how to use them in a port. / Colores, formatos y cómo usarlos en un port.

@@ -1,0 +1,53 @@
+name: Submit a port / Enviar mi port
+description: You built a Nephrite theme for an app and want it listed. / Creaste un tema Nephrite para una app y quieres que aparezca en el sitio.
+title: "Port submission: "
+labels: ["port submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Great work. We review every port against the [porting guide](https://github.com/Nephrite-theme/palette#building-a-port) so all of them feel like the same stone.
+
+        Buen trabajo. Revisamos cada port con la [guía para ports](https://github.com/Nephrite-theme/palette/blob/main/README.es.md#crear-un-port) para que todos se sientan de la misma piedra.
+  - type: input
+    id: app
+    attributes:
+      label: App / App
+      placeholder: Obsidian
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repository / Repositorio
+      description: Public repository with the port. / Repositorio público con el port.
+      placeholder: https://github.com/your-name/obsidian-nephrite
+    validations:
+      required: true
+  - type: checkboxes
+    id: flavors
+    attributes:
+      label: Flavors included / Sabores incluidos
+      options:
+        - label: Forest
+        - label: Jade
+        - label: Mint
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Capturas
+      description: One per flavor if you can. Drag images here. / Una por sabor si puedes. Arrastra las imágenes aquí.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Colors come from the Nephrite palette (palette.json), used by role as in the porting guide. / Los colores salen de la paleta Nephrite (palette.json), usados según su función como indica la guía.
+          required: true
+        - label: The README explains how to install the port. / El README explica cómo instalar el port.
+          required: true
+        - label: The port is released under the MIT license. / El port se publica con licencia MIT.
+          required: true
+        - label: I'm happy to maintain it. / Estoy dispuesto a mantenerlo.

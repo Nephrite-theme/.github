@@ -1,0 +1,42 @@
+# Contribuir a Nephrite
+
+[English](CONTRIBUTING.md) · **Español**
+
+Nephrite crece de a una app a la vez, y la mayoría de esos temas los harán personas como tú. Gracias por estar aquí.
+
+## Formas de ayudar
+
+- **Pedir una app.** Dinos cuál quieres con el [formulario para pedir una app](https://github.com/Nephrite-theme/web/issues/new?template=port-request.yml). Si ya la pidieron, deja un 👍 en ese issue; usamos los votos para decidir el orden.
+- **Crear un port.** Aplica la paleta Nephrite a una app. Más abajo está cómo.
+- **Reportar un problema.** Un color que choca, poco contraste o una instalación que falla: abre un issue en el repositorio de ese port, o usa el [formulario de problemas](https://github.com/Nephrite-theme/web/issues/new?template=bug-report.yml) si es del sitio.
+- **Traducir el sitio.** Los textos están en [`web/messages`](https://github.com/Nephrite-theme/web/tree/main/messages), un archivo JSON por idioma.
+
+## Crear un port
+
+1. **Revisa que esté libre.** Mira [getnephrite.dev/es/ports](https://getnephrite.dev/es/ports) y los [pedidos abiertos](https://github.com/Nephrite-theme/web/issues?q=is%3Aissue+label%3A%22port+request%22). Si alguien ya tomó la app, coordínense en ese issue.
+2. **Resérvalo.** Comenta en el pedido (o abre uno) diciendo que lo estás creando, para no duplicar trabajo.
+3. **Usa la paleta según su función.** Toma los colores de [Nephrite-theme/palette](https://github.com/Nephrite-theme/palette) y sigue su [guía para ports](https://github.com/Nephrite-theme/palette/blob/main/README.es.md#crear-un-port): qué color va en fondos, texto, acentos, sintaxis y terminal. No inventes colores nuevos; si a la paleta le falta algo, abre un issue en su repositorio.
+4. **Incluye los sabores.** Publica Forest, Jade y Mint si la app admite varios temas. Si solo admite uno, empieza por Forest.
+5. **Documéntalo.** Un README con los pasos de instalación y una captura por sabor. Nombra el repositorio `<app>` si vivirá en la organización, o `<app>-nephrite` en tu propia cuenta.
+6. **Envíalo.** Abre un [envío de port](https://github.com/Nephrite-theme/web/issues/new?template=port-submission.yml) con el link al repositorio y las capturas.
+
+### Qué revisamos
+
+- Los colores salen de `palette.json` y se usan según su función.
+- El texto se lee bien: el texto principal con 4.5:1 de contraste o más sobre su fondo.
+- El README explica la instalación.
+- El port tiene licencia MIT.
+
+### Después de la revisión
+
+Los ports aceptados aparecen en [getnephrite.dev/es/ports](https://getnephrite.dev/es/ports). Tu repositorio sigue siendo tuyo. Si quieres, podemos transferirlo a la organización Nephrite-theme y mantenerte como su responsable, para que sea más fácil de encontrar y de mantener al día con los cambios de la paleta.
+
+## Pull requests
+
+- Mantén cada pull request enfocado en un solo cambio.
+- Describe qué cambió y agrega una captura para cualquier cambio visual.
+- Los mensajes de commit siguen [Conventional Commits](https://www.conventionalcommits.org/es) cuando sea posible (`feat:`, `fix:`, `docs:`).
+
+## Sé amable
+
+Asume buena intención, comenta el trabajo y no a la persona, y ayuda a quien recién llega. Los mantenedores pueden quitar comentarios o contribuciones que no sigan esto.

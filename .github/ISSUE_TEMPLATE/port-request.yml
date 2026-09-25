@@ -1,0 +1,52 @@
+name: Port request / Pedir una app
+description: Ask for a Nephrite theme for an app that does not have one yet. / Pide un tema Nephrite para una app que todavía no lo tiene.
+title: "Port request: "
+labels: ["port request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please check [getnephrite.dev/ports](https://getnephrite.dev/ports) and the [open requests](https://github.com/Nephrite-theme/web/issues?q=is%3Aissue+label%3A%22port+request%22) first; if the app is already there, add a 👍 to that issue instead.
+
+        Gracias por la idea. Revisa primero [getnephrite.dev/es/ports](https://getnephrite.dev/es/ports) y los [pedidos abiertos](https://github.com/Nephrite-theme/web/issues?q=is%3Aissue+label%3A%22port+request%22); si la app ya está, deja un 👍 en ese issue.
+  - type: input
+    id: app
+    attributes:
+      label: App / App
+      description: Name of the app. / Nombre de la app.
+      placeholder: Obsidian
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Website / Sitio web
+      description: Where can we find it? / ¿Dónde la encontramos?
+      placeholder: https://obsidian.md
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category / Categoría
+      options:
+        - Browser / Navegador
+        - Editor or IDE / Editor o IDE
+        - Terminal / Terminal
+        - Music / Música
+        - Notes and writing / Notas y escritura
+        - Chat and social / Chat y redes
+        - Other / Otra
+    validations:
+      required: true
+  - type: textarea
+    id: theming
+    attributes:
+      label: How can it be themed? / ¿Cómo se le cambia el tema?
+      description: Link to its theming docs or format if you know it (CSS, JSON, a theme store…). / Enlaza su documentación o formato de temas si lo conoces (CSS, JSON, una tienda de temas…).
+  - type: checkboxes
+    id: build
+    attributes:
+      label: Contribution / Contribución
+      options:
+        - label: I'd like to build this port myself. / Me gustaría crear este port yo.

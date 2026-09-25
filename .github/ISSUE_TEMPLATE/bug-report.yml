@@ -1,0 +1,36 @@
+name: Report a problem / Reportar un problema
+description: Something looks wrong or broken in a Nephrite port or the website. / Algo se ve mal o no funciona en un port de Nephrite o en el sitio.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / ¿Qué pasó?
+      description: What did you expect, and what did you see instead? / ¿Qué esperabas y qué viste en su lugar?
+    validations:
+      required: true
+  - type: dropdown
+    id: flavor
+    attributes:
+      label: Flavor / Sabor
+      options:
+        - Forest
+        - Jade
+        - Mint
+        - Not sure / No estoy seguro
+        - Not applicable / No aplica
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: App and version / App y versión
+      description: Include your operating system if it matters. / Incluye tu sistema operativo si importa.
+      placeholder: Chrome 131 on Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Capturas
+      description: A screenshot helps us find color issues fast. / Una captura nos ayuda a encontrar problemas de color rápido.
