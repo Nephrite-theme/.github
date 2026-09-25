@@ -42,7 +42,7 @@ Grab it as CSS, SCSS, JSON or JS from [**Nephrite-theme/palette**](https://githu
 | Firefox | Available | [Install](https://addons.mozilla.org/firefox/addon/nephrite-forest/) · [Source](https://github.com/Nephrite-theme/firefox) |
 | VS Code | Available | [Install](https://marketplace.visualstudio.com/items?itemName=nephrite-theme.nephrite) · [Open VSX](https://open-vsx.org/extension/nephrite-theme/nephrite) · [Source](https://github.com/Nephrite-theme/vscode) |
 | Spotify | Next | Through Spicetify |
-| Terminal | Next | Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty, WezTerm · [Source](https://github.com/Nephrite-theme/terminal) |
+| Terminal | Next | Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty, Warp, WezTerm · [Source](https://github.com/Nephrite-theme/terminal) |
 
 Want Nephrite somewhere else? [Request a port](https://github.com/Nephrite-theme/web/issues/new?template=port-request.yml), or build one: the [contributing guide](https://github.com/Nephrite-theme/.github/blob/main/CONTRIBUTING.md) walks you through it.
 
@@ -84,7 +84,7 @@ Descárgala en CSS, SCSS, JSON o JS desde [**Nephrite-theme/palette**](https://g
 | Firefox | Disponible | [Instalar](https://addons.mozilla.org/firefox/addon/nephrite-forest/) · [Código](https://github.com/Nephrite-theme/firefox) |
 | VS Code | Disponible | [Instalar](https://marketplace.visualstudio.com/items?itemName=nephrite-theme.nephrite) · [Open VSX](https://open-vsx.org/extension/nephrite-theme/nephrite) · [Código](https://github.com/Nephrite-theme/vscode) |
 | Spotify | Próximamente | Con Spicetify |
-| Terminal | Próximamente | Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty, WezTerm · [Código](https://github.com/Nephrite-theme/terminal) |
+| Terminal | Próximamente | Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty, Warp, WezTerm · [Código](https://github.com/Nephrite-theme/terminal) |
 
 ¿Quieres Nephrite en otra app? [Pídela](https://github.com/Nephrite-theme/web/issues/new?template=port-request.yml), o créala: la [guía para contribuir](https://github.com/Nephrite-theme/.github/blob/main/CONTRIBUTING.es.md) te lleva paso a paso.
 
