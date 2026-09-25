@@ -15,10 +15,11 @@ Nephrite crece de a una app a la vez, y la mayoría de esos temas los harán per
 
 1. **Revisa que esté libre.** Mira [getnephrite.dev/es/ports](https://getnephrite.dev/es/ports) y los [pedidos abiertos](https://github.com/Nephrite-theme/web/issues?q=is%3Aissue+label%3A%22port+request%22). Si alguien ya tomó la app, coordínense en ese issue.
 2. **Resérvalo.** Comenta en el pedido (o abre uno) diciendo que lo estás creando, para no duplicar trabajo.
-3. **Usa la paleta según su función.** Toma los colores de [Nephrite-theme/palette](https://github.com/Nephrite-theme/palette) y sigue su [guía para ports](https://github.com/Nephrite-theme/palette/blob/main/README.es.md#crear-un-port): qué color va en fondos, texto, acentos, sintaxis y terminal. No inventes colores nuevos; si a la paleta le falta algo, abre un issue en su repositorio.
-4. **Incluye los sabores.** Publica Forest, Jade y Mint si la app admite varios temas. Si solo admite uno, empieza por Forest.
-5. **Documéntalo.** Un README con los pasos de instalación y una captura por sabor. Nombra el repositorio `<app>` si vivirá en la organización, o `<app>-nephrite` en tu propia cuenta.
-6. **Envíalo.** Abre un [envío de port](https://github.com/Nephrite-theme/web/issues/new?template=port-submission.yml) con el link al repositorio y las capturas.
+3. **Parte de la plantilla.** Haz clic en **Use this template** en [Nephrite-theme/template](https://github.com/Nephrite-theme/template). Trae el README, las carpetas, un script para sincronizar la paleta y un checklist.
+4. **Usa la paleta según su función.** Toma los colores de [Nephrite-theme/palette](https://github.com/Nephrite-theme/palette) y sigue su [guía para ports](https://github.com/Nephrite-theme/palette/blob/main/README.es.md#crear-un-port): qué color va en fondos, texto, acentos, sintaxis y terminal. No inventes colores nuevos; si a la paleta le falta algo, abre un issue en su repositorio.
+5. **Incluye los sabores.** Publica Forest, Jade y Mint si la app admite varios temas. Si solo admite uno, empieza por Forest.
+6. **Documéntalo.** Un README con los pasos de instalación y una captura por sabor. Nombra el repositorio `<app>` si vivirá en la organización, o `<app>-nephrite` en tu propia cuenta.
+7. **Envíalo.** Abre un [envío de port](https://github.com/Nephrite-theme/web/issues/new?template=port-submission.yml) con el link al repositorio y las capturas.
 
 ### Qué revisamos
 

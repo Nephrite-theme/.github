@@ -15,10 +15,11 @@ Nephrite grows one app at a time, and most of those apps will be themed by peopl
 
 1. **Check it's free.** Look at [getnephrite.dev/ports](https://getnephrite.dev/ports) and the [open requests](https://github.com/Nephrite-theme/web/issues?q=is%3Aissue+label%3A%22port+request%22). If someone already claimed the app, coordinate in that issue.
 2. **Claim it.** Comment on the request (or open one) saying you're building it, so work isn't duplicated.
-3. **Use the palette by role.** Take the colors from [Nephrite-theme/palette](https://github.com/Nephrite-theme/palette) and follow its [porting guide](https://github.com/Nephrite-theme/palette#building-a-port): which color goes on backgrounds, text, accents, syntax and terminal slots. Don't invent new colors; if the palette is missing something, open an issue in the palette repository.
-4. **Cover the flavors.** Ship Forest, Jade and Mint when the app allows several themes. If it only allows one, start with Forest.
-5. **Document it.** A README with install steps and one screenshot per flavor. Name the repository `<app>` if it will live in the organization, or `<app>-nephrite` in your own account.
-6. **Submit it.** Open a [port submission](https://github.com/Nephrite-theme/web/issues/new?template=port-submission.yml) with the repository link and screenshots.
+3. **Start from the template.** Click **Use this template** on [Nephrite-theme/template](https://github.com/Nephrite-theme/template). It comes with the README, folders, a palette sync script and a checklist.
+4. **Use the palette by role.** Take the colors from [Nephrite-theme/palette](https://github.com/Nephrite-theme/palette) and follow its [porting guide](https://github.com/Nephrite-theme/palette#building-a-port): which color goes on backgrounds, text, accents, syntax and terminal slots. Don't invent new colors; if the palette is missing something, open an issue in the palette repository.
+5. **Cover the flavors.** Ship Forest, Jade and Mint when the app allows several themes. If it only allows one, start with Forest.
+6. **Document it.** A README with install steps and one screenshot per flavor. Name the repository `<app>` if it will live in the organization, or `<app>-nephrite` in your own account.
+7. **Submit it.** Open a [port submission](https://github.com/Nephrite-theme/web/issues/new?template=port-submission.yml) with the repository link and screenshots.
 
 ### What we check
 
