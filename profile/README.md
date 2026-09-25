@@ -39,7 +39,7 @@ Grab it as CSS, SCSS, JSON or JS from [**Nephrite-theme/palette**](https://githu
 | App | Status | |
 | --- | --- | --- |
 | Chrome | Available | [Install](https://getnephrite.dev/ports?category=browser) · [Source](https://github.com/Nephrite-theme/chrome) |
-| Firefox | In progress | [Source](https://github.com/Nephrite-theme/firefox) |
+| Firefox | Available | [Install](https://addons.mozilla.org/firefox/addon/nephrite-forest/) · [Source](https://github.com/Nephrite-theme/firefox) |
 | VS Code | In progress | |
 | Spotify | Planned | |
 | Terminal | Planned | Windows Terminal, iTerm2, Hyper |
@@ -81,7 +81,7 @@ Descárgala en CSS, SCSS, JSON o JS desde [**Nephrite-theme/palette**](https://g
 | App | Estado | |
 | --- | --- | --- |
 | Chrome | Disponible | [Instalar](https://getnephrite.dev/es/ports?category=browser) · [Código](https://github.com/Nephrite-theme/chrome) |
-| Firefox | En progreso | [Código](https://github.com/Nephrite-theme/firefox) |
+| Firefox | Disponible | [Instalar](https://addons.mozilla.org/firefox/addon/nephrite-forest/) · [Código](https://github.com/Nephrite-theme/firefox) |
 | VS Code | En progreso | |
 | Spotify | Planeado | |
 | Terminal | Planeado | Windows Terminal, iTerm2, Hyper |
