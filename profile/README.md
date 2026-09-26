@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Nephrite-theme/web/main/public/og-image.png" alt="Nephrite: the emerald standard for your browser" width="100%">
+<img src="https://raw.githubusercontent.com/Nephrite-theme/web/main/public/og-image.png" alt="Nephrite: the emerald standard for your screen" width="100%">
 
 ### A calm, jade-inspired color theme for the apps you use every day
 
