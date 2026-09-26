@@ -30,7 +30,41 @@ Nephrite grows one app at a time, and most of those apps will be themed by peopl
 
 ### After review
 
-Accepted ports are listed on [getnephrite.dev/ports](https://getnephrite.dev/ports). Your repository stays yours. If you'd like, we can transfer it into the Nephrite-theme organization and keep you as its maintainer, so it's easier to find and keep in sync with palette updates.
+Accepted ports are listed on [getnephrite.dev/ports](https://getnephrite.dev/ports). Your repository stays yours. If you'd like, it can move into the Nephrite-theme organization with you as its maintainer; see [Maintaining a port](#maintaining-a-port).
+
+## Maintaining a port
+
+### Where a port can live
+
+- **In your account.** The repository stays yours and we link to it from the website. Nothing else changes.
+- **In the organization.** Once a port is accepted and you want to keep caring for it, it can move into Nephrite-theme. It's easier to find, and it keeps working even if you step away.
+
+To move an existing port, add a Nephrite owner as an **Admin** of your repository and we transfer it. GitHub redirects the old links, so nothing breaks. For a new app, we can also create the repository in the organization from the template and give you access from day one, so no transfer is needed.
+
+### Roles
+
+| Role | Who | Access |
+| --- | --- | --- |
+| Contributor | Anyone who opens issues or pull requests | None needed |
+| Port maintainer | The person who cares for a port in the organization | **Maintain** on that port's repository, through a team such as `@Nephrite-theme/obsidian-maintainers` |
+| Core team | Trusted maintainers who help across the project | **Write** on `palette`, `web` and `template` |
+| Owner | The project lead | Everything |
+
+Organization members only get read access by default; each role adds access to specific repositories. Two-factor authentication is required for members.
+
+### What a maintainer does
+
+- Reviews issues and pull requests for the port. Pull requests to `main` need one approval from a code owner.
+- Keeps the port in sync with palette releases (`sync-palette`, then `build`).
+- Tags releases and keeps the README and screenshots current.
+
+### Store listings
+
+Ports published in a store (Chrome Web Store, Firefox Add-ons, VS Code Marketplace, Open VSX) are published from Nephrite's accounts, and maintainers are added to them. That way a listing and its users are never tied to one personal account.
+
+### Stepping down
+
+Life happens. If you can't keep maintaining a port, say so in an issue and we'll find someone else. If a port has no activity for about six months, we'll check in with you; without a reply, access is removed and you're credited under **Past maintainers** in its README.
 
 ## Pull requests
 

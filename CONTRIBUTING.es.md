@@ -30,7 +30,41 @@ Nephrite crece de a una app a la vez, y la mayoría de esos temas los harán per
 
 ### Después de la revisión
 
-Los ports aceptados aparecen en [getnephrite.dev/es/ports](https://getnephrite.dev/es/ports). Tu repositorio sigue siendo tuyo. Si quieres, podemos transferirlo a la organización Nephrite-theme y mantenerte como su responsable, para que sea más fácil de encontrar y de mantener al día con los cambios de la paleta.
+Los ports aceptados aparecen en [getnephrite.dev/es/ports](https://getnephrite.dev/es/ports). Tu repositorio sigue siendo tuyo. Si quieres, puede pasar a la organización Nephrite-theme contigo como responsable; lee [Mantener un port](#mantener-un-port).
+
+## Mantener un port
+
+### Dónde puede vivir un port
+
+- **En tu cuenta.** El repositorio sigue siendo tuyo y lo enlazamos desde la web. No cambia nada más.
+- **En la organización.** Cuando un port es aceptado y quieres seguir cuidándolo, puede pasar a Nephrite-theme. Es más fácil de encontrar y sigue funcionando aunque algún día te alejes.
+
+Para mover un port que ya existe, agrega a un owner de Nephrite como **Admin** de tu repositorio y nosotros lo transferimos. GitHub redirige los enlaces viejos, así que nada se rompe. Para una app nueva también podemos crear el repositorio en la organización desde la plantilla y darte acceso desde el primer día, sin necesidad de transferir.
+
+### Roles
+
+| Rol | Quién | Acceso |
+| --- | --- | --- |
+| Contribuidor | Cualquiera que abra issues o pull requests | Ninguno |
+| Responsable de un port | Quien cuida un port dentro de la organización | **Maintain** en el repositorio de ese port, mediante un equipo como `@Nephrite-theme/obsidian-maintainers` |
+| Equipo central | Responsables de confianza que ayudan en todo el proyecto | **Write** en `palette`, `web` y `template` |
+| Owner | Quien dirige el proyecto | Todo |
+
+Por defecto, los miembros de la organización solo tienen acceso de lectura; cada rol suma acceso a repositorios concretos. Los miembros deben usar autenticación en dos pasos.
+
+### Qué hace un responsable
+
+- Revisa los issues y pull requests del port. Los pull requests a `main` necesitan la aprobación de un code owner.
+- Mantiene el port al día con cada versión de la paleta (`sync-palette` y luego `build`).
+- Publica releases y mantiene el README y las capturas al día.
+
+### Fichas en tiendas
+
+Los ports publicados en una tienda (Chrome Web Store, Firefox Add-ons, VS Code Marketplace, Open VSX) se publican desde las cuentas de Nephrite, y los responsables se agregan a ellas. Así una ficha y sus usuarios nunca dependen de una cuenta personal.
+
+### Dejar un port
+
+Pasa. Si no puedes seguir manteniendo un port, dilo en un issue y buscaremos a alguien más. Si un port pasa unos seis meses sin actividad, te escribiremos; si no hay respuesta, se retira el acceso y apareces en **Past maintainers** en su README.
 
 ## Pull requests
 
