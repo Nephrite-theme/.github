@@ -1,0 +1,43 @@
+# Shared check for the palette and every port. Each repository calls it with:
+#
+#   jobs:
+#     check:
+#       uses: Nephrite-theme/.github/.github/workflows/port-check.yml@main
+#
+# It rebuilds the generated files and fails if they differ from the commit,
+# which catches hand edits to output instead of to scripts/build.mjs. When a
+# repository has scripts/check.mjs (the palette's contrast check), it runs too.
+name: Port check
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Rebuild generated files
+        if: hashFiles('scripts/build.mjs') != ''
+        run: node scripts/build.mjs
+
+      - name: Generated files match the commit
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Generated files are out of date. Edit scripts/build.mjs or palette.json instead of the generated files, run 'node scripts/build.mjs' and commit the result."
+            git status --short
+            git --no-pager diff --stat
+            exit 1
+          fi
+          echo "Generated files match the commit."
+
+      - name: Extra checks
+        if: hashFiles('scripts/check.mjs') != ''
+        run: node scripts/check.mjs
