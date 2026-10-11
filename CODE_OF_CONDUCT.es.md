@@ -41,7 +41,7 @@ Este código de conducta aplica en todos los espacios de Nephrite, incluidos tod
 
 ## Cómo reportar
 
-Reporta cualquier comportamiento que incumpla este código de conducta enviando un mensaje directo a [@NephriteTheme](https://x.com/NephriteTheme) en X. Todos los reportes se revisan con rapidez y de forma justa, y se respeta la privacidad y la seguridad de quien reporta.
+Reporta cualquier comportamiento que incumpla este código de conducta por correo a [nephrite.theme@proton.me](mailto:nephrite.theme@proton.me), o por mensaje directo a [@NephriteTheme](https://x.com/NephriteTheme) en X. Todos los reportes se revisan con rapidez y de forma justa, y se respeta la privacidad y la seguridad de quien reporta.
 
 ## Guía de aplicación
 

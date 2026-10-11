@@ -38,7 +38,7 @@ This Code of Conduct applies within all Nephrite spaces, including every reposit
 
 ## Reporting
 
-Report behavior that breaks this Code of Conduct by sending a direct message to [@NephriteTheme](https://x.com/NephriteTheme) on X. All reports are reviewed promptly and fairly, and the privacy and security of the reporter are respected.
+Report behavior that breaks this Code of Conduct by email to [nephrite.theme@proton.me](mailto:nephrite.theme@proton.me), or by direct message to [@NephriteTheme](https://x.com/NephriteTheme) on X. All reports are reviewed promptly and fairly, and the privacy and security of the reporter are respected.
 
 ## Enforcement guidelines
 
