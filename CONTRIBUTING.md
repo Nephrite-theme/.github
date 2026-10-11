@@ -74,4 +74,4 @@ Life happens. If you can't keep maintaining a port, say so in an issue and we'll
 
 ## Be kind
 
-Assume good intent, give feedback on the work and not the person, and help newcomers find their way. Maintainers may remove comments or contributions that don't follow this.
+Assume good intent, give feedback on the work and not the person, and help newcomers find their way. Everyone taking part follows the [Code of Conduct](CODE_OF_CONDUCT.md), which also explains how to report a problem.

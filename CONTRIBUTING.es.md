@@ -74,4 +74,4 @@ Pasa. Si no puedes seguir manteniendo un port, dilo en un issue y buscaremos a a
 
 ## Sé amable
 
-Asume buena intención, comenta el trabajo y no a la persona, y ayuda a quien recién llega. Los mantenedores pueden quitar comentarios o contribuciones que no sigan esto.
+Asume buena intención, comenta el trabajo y no a la persona, y ayuda a quien recién llega. Todas las personas que participan siguen el [código de conducta](CODE_OF_CONDUCT.es.md), que también explica cómo reportar un problema.
