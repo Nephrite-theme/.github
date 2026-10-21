@@ -41,6 +41,7 @@ Grab it as CSS, SCSS, JSON or JS from [**Nephrite-theme/palette**](https://githu
 | Chrome | Available | [Install](https://getnephrite.dev/ports?category=browser) · [Source](https://github.com/Nephrite-theme/chrome) |
 | Firefox | Available | [Install](https://addons.mozilla.org/firefox/addon/nephrite-forest/) · [Source](https://github.com/Nephrite-theme/firefox) |
 | VS Code | Available | [Install](https://marketplace.visualstudio.com/items?itemName=nephrite-theme.nephrite) · [Open VSX](https://open-vsx.org/extension/nephrite-theme/nephrite) · [Source](https://github.com/Nephrite-theme/vscode) |
+| Thunderbird | Next | [Source](https://github.com/Nephrite-theme/thunderbird) |
 | Spotify | Available | Through Spicetify · [Install](https://github.com/Nephrite-theme/spotify#install) · [Source](https://github.com/Nephrite-theme/spotify) |
 | Terminal | Available | Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty, Warp, WezTerm · [Install](https://github.com/Nephrite-theme/terminal#install) · [Source](https://github.com/Nephrite-theme/terminal) |
 
@@ -83,6 +84,7 @@ Descárgala en CSS, SCSS, JSON o JS desde [**Nephrite-theme/palette**](https://g
 | Chrome | Disponible | [Instalar](https://getnephrite.dev/es/ports?category=browser) · [Código](https://github.com/Nephrite-theme/chrome) |
 | Firefox | Disponible | [Instalar](https://addons.mozilla.org/firefox/addon/nephrite-forest/) · [Código](https://github.com/Nephrite-theme/firefox) |
 | VS Code | Disponible | [Instalar](https://marketplace.visualstudio.com/items?itemName=nephrite-theme.nephrite) · [Open VSX](https://open-vsx.org/extension/nephrite-theme/nephrite) · [Código](https://github.com/Nephrite-theme/vscode) |
+| Thunderbird | Próximamente | [Código](https://github.com/Nephrite-theme/thunderbird) |
 | Spotify | Disponible | Con Spicetify · [Instalar](https://github.com/Nephrite-theme/spotify/blob/main/README.es.md#instalación) · [Código](https://github.com/Nephrite-theme/spotify) |
 | Terminal | Disponible | Windows Terminal, iTerm2, Alacritty, Kitty, Ghostty, Warp, WezTerm · [Instalar](https://github.com/Nephrite-theme/terminal/blob/main/README.es.md#instalación) · [Código](https://github.com/Nephrite-theme/terminal) |
 
